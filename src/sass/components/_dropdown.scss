@@ -1,0 +1,61 @@
+.dropdown{
+   position: relative;
+
+   &:focus{
+      box-shadow: none;
+   }
+
+   &__list{
+      z-index: 4;
+      position: absolute;
+      border-radius: 20px;
+      overflow: hidden;
+      width: 30rem;
+      max-width: 28rem;
+      top: calc(100% + 2rem);
+      right: -100%;
+      box-shadow: 0 0 6rem rgba(0,0,0,.15);
+      background: rgba(0,0,0,.12);
+      cursor: default;
+      border-radius: 20px;
+      max-height: 0;
+      transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+      li{
+         text-align: left;
+         &:not(:last-child){
+            border-bottom: 1px solid $color-secondary;
+         }
+         
+         &.devider{
+            border-bottom: 0;
+         }
+         
+         a{
+            padding: 1rem 2rem;
+            background: #fff;
+            font-size: 1.8rem;
+            font-weight: normal;
+            color: $color-text;
+            display: flex;
+            align-items: center;
+            span{
+               margin: 0 1rem;
+               margin-right: auto;
+            }
+            .icon{
+
+            }
+
+            &:hover{
+               color: $color-primary;
+            }
+         }
+      }
+   }
+
+   &.active{
+      color: rgba($color-primary, .5);
+
+   }
+}

@@ -1,0 +1,30 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-red" viewBox="0 0 32 32">
+<path fill="#fd3b30" style="fill: var(--color1, #fd3b30); stroke: var(--color2, #fff)" stroke="#fff" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.6" d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+<path fill="none" stroke="#fff" style="stroke: var(--color2, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.6" d="M31.2 16c0 8.395-6.805 15.2-15.2 15.2s-15.2-6.805-15.2-15.2c0-8.395 6.805-15.2 15.2-15.2s15.2 6.805 15.2 15.2z"></path>
+</symbol>
+<symbol id="icon-orange" viewBox="0 0 32 32">
+<path fill="#fd9526" style="fill: var(--color3, #fd9526)" d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+</symbol>
+<symbol id="icon-yellow" viewBox="0 0 32 32">
+<path fill="#fecc2f" style="fill: var(--color4, #fecc2f)" d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+</symbol>
+<symbol id="icon-green" viewBox="0 0 32 32">
+<path fill="#34c759" style="fill: var(--color5, #34c759)" d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+</symbol>
+<symbol id="icon-blue" viewBox="0 0 32 32">
+<path fill="#147afc" style="fill: var(--color6, #147afc)" d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+</symbol>
+<symbol id="icon-purple" viewBox="0 0 32 32">
+<path fill="#af52de" style="fill: var(--color7, #af52de)" d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+</symbol>
+<symbol id="icon-grey" viewBox="0 0 32 32">
+<path fill="#8e8e93" style="fill: var(--color8, #8e8e93)" d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+</symbol>
+<symbol id="icon-work" viewBox="0 0 32 32">
+<path fill="#f2f2f6" style="fill: var(--color9, #f2f2f6); stroke: var(--color8, #8e8e93)" stroke="#8e8e93" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.6" d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+<path fill="none" stroke="#8e8e93" style="stroke: var(--color8, #8e8e93)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.6" d="M31.2 16c0 8.395-6.805 15.2-15.2 15.2s-15.2-6.805-15.2-15.2c0-8.395 6.805-15.2 15.2-15.2s15.2 6.805 15.2 15.2z"></path>
+</symbol>
+</defs>
+</svg>

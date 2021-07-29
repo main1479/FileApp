@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Gallery</title>
+		<!-- fonts -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- css files -->
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body class="sidebar-active remindersPage">
+		<!-- ========================================== -->
+		<!-- =============== sidebar ================== -->
+		<!-- ========================================== -->
+		<div class="sidebar-overlay sidebar__toggler">&nbsp;</div>
+		<button class="btn btn__icon sidebar__toggle-icon sidebar__toggler">
+			<svg class="close-icon">
+				<use xlink:href="./img/icons.svg#icon-nav-icon"></use>
+			</svg>
+			<svg class="open-icon">
+				<use xlink:href="./img/icons.svg#icon-open-sidebar"></use>
+			</svg>
+		</button>
+		<aside class="sidebar reminders__sidebar">
+			<div class="sidebar__header">
+				<button class="btn btn__icon edit__btn hide">
+					<svg>
+						<use xlink:href="./img/icons.svg#icon-three-dot-hr"></use>
+					</svg>
+				</button>
+			</div>
+			<form class="search__form">
+				<div class="input__group">
+					<svg class="input__group--icon">
+						<use xlink:href="./img/icons.svg#icon-search"></use>
+					</svg>
+					<input type="text" name="search" placeholder="Search" class="input__group--input">
+				</div>
+			</form>
+
+			<div class="reminders__details">
+				<div class="reminders__details-card reminders__details-card--today">
+					<div class="card__top">
+						<div class="icon">
+							<svg>
+								<use xlink:href="./img/icons.svg#icon-calendar"></use>
+							</svg>
+						</div>
+						<h3 class="heading">
+							0
+						</h3>
+					</div>
+					<p class="p__text text__secondary">Today</p>
+				</div>
+				<div class="reminders__details-card reminders__details-card--schedule">
+					<div class="card__top">
+						<div class="icon">
+							<svg>
+								<use xlink:href="./img/icons.svg#icon-schedule"></use>
+							</svg>
+						</div>
+						<h3 class="heading">
+							0
+						</h3>
+					</div>
+					<p class="p__text text__secondary">Schedule</p>
+				</div>
+				<div class="reminders__details-card reminders__details-card--all active">
+					<div class="card__top">
+						<div class="icon">
+							<svg>
+								<use xlink:href="./img/icons.svg#icon-inbox"></use>
+							</svg>
+						</div>
+						<h3 class="heading">
+							0
+						</h3>
+					</div>
+					<p class="p__text text__secondary">All</p>
+				</div>
+				<div class="reminders__details-card reminders__details-card--flagged">
+					<div class="card__top">
+						<div class="icon">
+							<svg>
+								<use xlink:href="./img/icons.svg#icon-flag"></use>
+							</svg>
+						</div>
+						<h3 class="heading">
+							0
+						</h3>
+					</div>
+					<p class="p__text text__secondary">Flagged</p>
+				</div>
+			</div>
+
+
+			<div class="sidebar__menu">
+				<h3 class="heading sidebar__menu-heading sidebar__menu-heading--myLists">My Lists</h3>
+				<ul class="sidebar__menu-list sidebar__menu-list--myLists mb-3">
+					<li>
+						<a href="#">
+							<div class="icon">
+								<svg>
+								<use xlink:href="./img/icons.svg#icon-list"></use>
+							</svg>
+							</div>
+							Reminders
+							<span>3</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</aside>
+
+		<!-- ============================================== -->
+		<!-- ============ Main Content Area =============== -->
+		<!-- ============================================== -->
+
+		<main class="content">
+			<div class="container-fluid">
+				<header class="header">
+					<div class="page__header">
+					<h2 class="heading text__secondary">All</h2>
+					<h4 class="heading hide">
+						Select Items
+					</h4>
+					<div class="page__header--right">
+						<button class="btn btn__icon hide">
+							<svg>
+								<use xlink:href="./img/icons.svg#icon-new-folder"></use>
+							</svg>
+						</button>
+						<button class="btn btn__icon dropdown hide">
+							<svg>
+								<use xlink:href="./img/icons.svg#icon-list"></use>
+							</svg>
+
+							<ul class="dropdown__list">
+								<li>
+									<a href="#">
+										<svg class="done">
+											<use xlink:href="./img/icons.svg#icon-done"></use>
+										</svg>
+										<span>Icons</span>
+										<svg class="icon">
+											<use xlink:href="./img/icons.svg#icon-grid"></use>
+										</svg>
+									</a>
+								</li>
+							</ul>
+						</button>
+						<button class="btn btn__icon edit__btn">
+							<svg>
+								<use xlink:href="./img/icons.svg#icon-three-dot-hr"></use>
+							</svg>
+						</button>
+					</div>
+				</div>
+				</header>
+
+				<button class="btn btn__icon p-0">
+					<h3 class="heading">
+						Reminders
+					</h3>
+				</button>
+
+				<div class="selectionPage__content">
+					<!-- ========================================== -->
+					<!-- Note: Lists markup coming from JavaSCript file -->
+					<!-- ========================================== -->
+					<ul class="reminder__list mt-1">
+						<li class="reminder__list-item">
+							<div class="reminder__list-details">
+								<h4 class="title">
+									Buy cornflakes and bread from super market
+								</h4>
+							</div>
+						</li>
+						<li class="reminder__list-item">
+							<div class="reminder__list-details">
+								<h4 class="title">
+									Buy toilet paper and masks
+								</h4>
+							</div>
+						</li>
+						<li class="reminder__list-item" data-select="selected">
+							<div class="reminder__list-details">
+								<h4 class="title">
+									Buy toilet paper and masks
+								</h4>
+							</div>
+						</li>
+					</ul>
+
+					<div class="add-btn-container">
+						<button class="btn add__btn p-0">
+							<svg>
+								<use xlink:href="./img/icons.svg#icon-plus"></use>
+							</svg>
+						</button>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<!-- Main js file -->
+		<script src="js/reminders.js"></script>
+	</body>
+</html>

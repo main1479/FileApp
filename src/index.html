@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Gallery</title>
+		<!-- fonts -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- css files -->
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body class="sidebar-active">
+		<!-- ========================================== -->
+		<!-- =============== sidebar ================== -->
+		<!-- ========================================== -->
+		<div class="sidebar-overlay sidebar__toggler">&nbsp;</div>
+		<button class="btn btn__icon sidebar__toggle-icon sidebar__toggler">
+			<svg class="close-icon">
+				<use xlink:href="./img/icons.svg#icon-nav-icon"></use>
+			</svg>
+			<svg class="open-icon">
+				<use xlink:href="./img/icons.svg#icon-open-sidebar"></use>
+			</svg>
+		</button>
+		<aside class="sidebar">
+			<div class="sidebar__header">
+				<button class="btn btn__icon edit__btn">
+					<svg>
+						<use xlink:href="./img/icons.svg#icon-three-dot-hr"></use>
+					</svg>
+				</button>
+			</div>
+			<div class="sidebar__menu">
+				<h2 class="heading sidebar__menu-heading sidebar__menu-heading--files">Files</h2>
+				<ul class="sidebar__menu-list sidebar__menu-list--files mb-3">
+					<li>
+						<a href="#">
+							<svg>
+								<use xlink:href="./img/icons.svg#icon-recents"></use>
+							</svg>
+							Recents
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="sidebar__menu">
+				<h4 class="heading sidebar__menu-heading dropdown__trigger">
+					Locations
+					<svg>
+						<use xlink:href="./img/icons.svg#icon-chevron-down"></use>
+					</svg>
+				</h4>
+				<ul class="sidebar__menu-list sidebar__menu-list--locations sidebar__dropdown active">
+					<li>
+						<a href="#">
+							<svg>
+								<use xlink:href="./img/icons.svg#icon-icloud"></use>
+							</svg>
+							iCloud Drive
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="sidebar__menu">
+				<h4 class="heading sidebar__menu-heading dropdown__trigger">
+					Favourites
+					<svg>
+						<use xlink:href="./img/icons.svg#icon-chevron-down"></use>
+					</svg>
+				</h4>
+				<ul class="sidebar__menu-list sidebar__menu-list--favorites sidebar__dropdown">
+					<li>
+						<a href="#">
+							<svg>
+								<use xlink:href="./img/icons.svg#icon-favoroutes"></use>
+							</svg>
+							Favourites
+						</a>
+					</li>
+				</ul>
+				<hr />
+			</div>
+			<div class="sidebar__menu">
+				<h4 class="heading sidebar__menu-heading dropdown__trigger">
+					Tags
+					<svg>
+						<use xlink:href="./img/icons.svg#icon-chevron-down"></use>
+					</svg>
+				</h4>
+				<ul class="sidebar__menu-list sidebar__menu-list--tags sidebar__dropdown active">
+					<li>
+						<a href="#" class="text__bold">
+							<svg>
+								<use xlink:href="./img/colors.svg#icon-red"></use>
+							</svg>
+							Red
+						</a>
+					</li>
+				</ul>
+			</div>
+		</aside>
+
+		<!-- ============================================== -->
+		<!-- ============ Main Content Area =============== -->
+		<!-- ============================================== -->
+
+		<main class="content">
+			<div class="container-fluid">
+				<header class="header">
+					<div class="page__header">
+						<!-- <button class="btn btn__icon">
+							<svg>
+								<use xlink:href="./img/icons.svg#icon-chevron-left"></use>
+							</svg>
+							On My iPad
+						</button> -->
+						<div>&nbsp;</div>
+						<button class="btn btn__icon text__dark">
+							<svg>
+								<use xlink:href="./img/colors.svg#icon-red"></use>
+							</svg>
+							Red
+						</button>
+						<div class="page__header--right">
+							<button class="btn btn__icon dropdown">
+								<svg>
+									<use xlink:href="./img/icons.svg#icon-list"></use>
+								</svg>
+
+								<ul class="dropdown__list">
+									<li>
+										<a href="#">
+											<svg class="done">
+												<use xlink:href="./img/icons.svg#icon-done"></use>
+											</svg>
+											<span>Icons</span>
+											<svg class="icon">
+												<use xlink:href="./img/icons.svg#icon-grid"></use>
+											</svg>
+										</a>
+									</li>
+								</ul>
+							</button>
+							<button class="btn btn__icon text__secondary">Select</button>
+						</div>
+					</div>
+					<form class="search__form">
+						<div class="input__group">
+							<svg class="input__group--icon">
+								<use xlink:href="./img/icons.svg#icon-search"></use>
+							</svg>
+							<input type="text" name="search" placeholder="Search" class="input__group--input" />
+						</div>
+					</form>
+				</header>
+
+				<div class="homepage__content">&nbsp;</div>
+			</div>
+		</main>
+
+		<div class="text-center floating__text">
+			<h4 class="heading">0 items</h4>
+		</div>
+
+		<!-- Main js file -->
+		<script src="js/main.js"></script>
+	</body>
+</html>

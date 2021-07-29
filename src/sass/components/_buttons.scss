@@ -1,0 +1,53 @@
+.btn {
+	font-size: 1.6rem;
+	&__icon {
+		color: $color-primary;
+		font-weight: bold;
+		svg {
+			width: 2.2rem;
+			min-width: 1.8rem;
+			height: 2rem;
+			fill: currentColor;
+		}
+
+		&:hover {
+			color: $color-text-light;
+		}
+	}
+	&.edit__btn{
+		width: 3rem;
+		height: 3rem;
+		border-radius: 50%;
+		border: 2px solid currentColor;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__secondary {
+		background: $color-secondary;
+		color: #fff;
+		padding: 1rem 2rem;
+	}
+
+	&.add__btn{
+		background: $color-secondary;
+		color: #fff;
+		width: 2rem;
+		height: 2rem;
+		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		svg {
+			width: 80%;
+			min-width: 80%;
+			height: 2rem;
+			fill: currentColor;
+		}
+
+		&:hover{
+			background: $color-text-light;
+		}
+	}
+}
